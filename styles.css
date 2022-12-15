@@ -1,0 +1,235 @@
+#top{
+    display: flex;
+    background-color: rgb(242, 239, 239);
+}
+
+#top1{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 10px 10px;
+    justify-content: space-between;
+    text-align: center ;
+    justify-items: center;
+    background-color: rgb(242, 239, 239);
+}
+#top>div>img{
+    width: 100px;
+}
+#top2{
+    display: flex;
+    width: 80%;
+}
+#top2>div{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+    justify-content: space-around;
+}
+#top2>div>div{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+    justify-content: space-around;
+}
+
+nav{
+    width: 80%;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    margin: auto;
+    justify-content: space-between;
+}
+#slide>img{
+    width: 100%;
+}
+#choice{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+    justify-content: space-between;
+}
+#choice>div{
+    display: flex;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+    justify-content: space-between;
+
+
+}
+#choice>div>img{
+    width: 100%;
+}
+
+#sephorabrand>img{
+    width: 100%;
+}
+#nw{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+    justify-content: space-between;
+}
+#nw>div{
+    display: flex;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+}
+#nw>div>img{
+    width: 100%;
+}
+
+#nw1{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+    justify-content: space-between;
+}
+#nw1>div{
+    display: flex;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+}
+#nw1>div>img{
+    width: 100%;
+}
+
+#nw2>img{
+    width: 100%;
+}
+#nw3>a{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+}
+
+#nw5{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: center ;
+    justify-content: space-between;
+}
+#nw5>img{
+    width: 100%;
+}
+#nw6>img{
+    width: 100%;
+}
+
+#nw7{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+    justify-content: space-between;
+}
+#nw7>div{
+    display: flex;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+}
+#nw7>div>img{
+    width: 100%;
+}
+#nw8>img{
+    width: 100%;
+}
+
+#nw9{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+    justify-content: space-between;
+}
+#nw9>div{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+    justify-content: space-around;
+}
+#nw9>div>img{
+    width: 100%;
+}
+#nw10>img{
+    width: 100%;
+}
+#nw11{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+    justify-content: space-between;
+}
+#nw11>div{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+    justify-content: space-around;
+}
+#nw11>div>img{
+    width: 100%;
+}
+#nw12{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+    justify-content: space-between;
+}
+#nw12>div{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+    justify-content: space-around;
+}
+#nw12>div>img{
+    width: 100%;
+}
+#nw13>img{
+    width: 100%;
+}
+#nw14{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+    justify-content: space-between;
+}
+#nw14>div{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center ;
+    justify-content: space-around;
+}
+}
