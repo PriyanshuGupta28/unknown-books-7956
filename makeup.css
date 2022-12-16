@@ -1,0 +1,110 @@
+#top{
+    display: flex;
+    background-color: rgb(242, 239, 239);
+}
+
+#top1{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 10px 10px;
+    justify-content: space-between;
+    text-align: center ;
+    justify-items: center;
+    background-color: rgb(242, 239, 239);
+}
+#top>div>img{
+    width: 100px;
+}
+#top2{
+    width: 80%;
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    text-align: center;
+    grid-gap: 50px;
+}
+#top2>div{
+    display: grid; 
+    grid-template-columns: repeat(6,1fr);
+    margin: auto;
+}
+#top2 a{
+    color: black;
+    text-decoration: none;
+}
+#top2{
+    width: 100%;
+    margin: auto;
+}
+#top2 i {
+    color: pink;
+    padding: 5px 5px;
+}
+nav {
+    width: 80%;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    margin: auto;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav p:hover{
+    color: pink;
+}
+#searcbar{
+    display: flex;
+    height: 3vh;
+    padding: 100px;
+    padding-left: 0px;
+    margin: auto;
+}
+#searcbar button{
+    border: none;
+    color: pink;
+    background-color: white;
+}
+#searcbar input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+#left{
+    margin-left: 10px;
+    padding-left: 100px;
+}
+#m1 >div {
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+#m1 img{
+    width: 100%;
+}
+#m2{
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+#makeup-container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+
+}
+#makeup-container div{
+
+    padding: 20px 20px;
+    text-align: center;
+    margin: auto;
+    gap: 10px;
+}
+
+#makeup-container img {
+    width: 100%;
+    margin: auto;
+}

@@ -1,3 +1,4 @@
+
 #top{
     display: flex;
     background-color: rgb(242, 239, 239);
@@ -17,22 +18,30 @@
     width: 100px;
 }
 #top2{
-    display: flex;
     width: 80%;
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    text-align: center;
+    grid-gap: 50px;
 }
 #top2>div{
-    display: flex; 
+    display: grid; 
+    grid-template-columns: repeat(6,1fr);
     margin: auto;
-    padding: 10px 10px;
 }
-#top2>div>div{
-    display: flex;
+#top2 a{
+    color: black;
+    text-decoration: none;
+}
+#top2{
+    width: 100%;
     margin: auto;
-    padding: 10px 10px;
-    text-align: center ;
-    
 }
-
+#top2 i {
+    color: pink;
+    padding: 5px 5px;
+}
 nav {
     width: 80%;
     display: flex;
@@ -40,6 +49,13 @@ nav {
     justify-content: center;
     margin: auto;
     justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav p:hover{
+    color: pink;
 }
 #slide>img{
     width: 100%;
@@ -58,6 +74,7 @@ nav {
     padding: 10px 10px;
     text-align: center ;
     justify-content: space-between;
+
 
 
 }
@@ -120,9 +137,22 @@ nav {
     margin: auto;
     padding: 20px 20px;
     justify-content: right;
+    text-align: center;
     
 }
-
+#nw4>div{
+    width: 100%;
+}
+#nw4>div>img{
+    width: 100%;
+}
+#nw4>div>p{
+    text-align: center;
+    font-family: sans-serif;
+}
+#img{
+    width: 1%;
+}
 #nw5{
     display: flex;
     width: 80%;
@@ -371,5 +401,122 @@ text-align: center;
 justify-content: space-evenly;
 }
 #nw17>div h5:hover{
+    color: pink;
+}
+#nw18{
+    display: flex;
+    justify-content: center;
+    
+}
+#nw18>div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10px;
+    
+}
+#nw18>div:hover{
+    color: pink;
+}
+#nw18>div>i{
+    width: 50px;
+}
+
+#nw19{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#nw19>p:hover{
+    color: pink;
+}
+#nw19>p{
+    padding: 5px 5px;
+}
+#nw20{
+    text-align: center;
+    font-family: sans-serif;
+}
+#nw20:hover{
+    color: pink;
+}
+#nw21{
+    width: 80%;
+    margin: auto;
+    
+}
+#nw21>div{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+#nw21>div>p{
+    padding: 2px 2px;
+}
+#nw21>div>p:hover{
+    color: pink;
+}
+#nw22{
+    text-align: center;
+    font-family: sans-serif;
+}
+#nw23{
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+}
+#nw23>p{
+    padding: 5px 5px;
+    font-family: sans-serif;
+}
+#nw23>p:hover{
+    color: pink;
+}
+#nw24>h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+#nw25{
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+}
+#nw25>p{
+    padding: 5px 5px;
+    font-family: sans-serif;
+}
+#nw25>p:hover{
+    color: pink;
+}
+#nw26>h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+#nw27{
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+}
+#nw27>p{
+    padding: 5px 5px;
+    font-family: sans-serif;
+}
+#nw27>p:hover{
+    color: pink;
+}
+#nw28>h2{
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0%;
+}
+#nw29{
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+}
+#nw29>p{
+    padding: 5px 5px;
+    font-family: sans-serif;
+}
+#nw29>p:hover{
     color: pink;
 }
